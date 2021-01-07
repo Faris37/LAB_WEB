@@ -6,7 +6,8 @@ $password = mysqli_real_escape_string($conn, $_REQUEST['password']);
 
 // Attempt insert query execution
 $sql = "SELECT * FROM sql12385564.member where username = '".$username."' and password = '".$password."'";
-if(mysqli_query($conn, $sql)){
+$result = mysqli_query($conn, $sql);
+if($result != false){
     
     echo $username;
     echo $password;

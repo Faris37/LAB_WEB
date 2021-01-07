@@ -68,8 +68,8 @@
                 Gender
             <th>
             <td>
-            <input type="radio" name="SEX" value="MALE" <?php echo ($gender =='MALE')? 'checked':'' ?> /> Male
-            <input type="radio" name="SEX" value="FEMALE" <?php echo ($gender =='FEMALE')? 'checked':'' ?> /> Female 
+            <input type="radio" name="SEX" value="MALE" <?php echo ($gender =="MALE")? 'checked':'' ?> /> Male
+            <input type="radio" name="SEX" value="FEMALE" <?php echo ($gender =="FEMALE")? 'checked':'' ?> /> Female 
             </td>
         </tr>
         <tr>

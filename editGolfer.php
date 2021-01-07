@@ -36,7 +36,7 @@
 
 <article>
 <form action="editGolferCheck.php?id=<?php echo $id ?>" method="POST">
-    <table style="text-align: left; border: 1px solid black; border-spacing: 5px;">
+    <table >
         <tr>
             <th>
                 Golfer

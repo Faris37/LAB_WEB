@@ -36,7 +36,7 @@
                 Score
             <th>
             <td>
-                <input type="text" id="score" name="score"  >   
+                <input type="text" id="score" name="score" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" >   
             </td>
         </tr>
         <tr>
@@ -44,7 +44,7 @@
                 Par
             <th>
             <td>
-                <input type="text" id="par" name="par"  >   
+                <input type="text" id="par" name="par" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" >   
             </td>
         </tr>
         <tr>
@@ -52,7 +52,7 @@
                 Net
             <th>
             <td>
-                <input type="text" id="net" name="net"  >   
+                <input type="text" id="net" name="net" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" >   
             </td>
         </tr>
         <tr>
@@ -60,7 +60,7 @@
                 Score Round
             <th>
             <td>
-                <input type="text" id="scoreround" name="scoreround"  >   
+                <input type="text" id="scoreround" name="scoreround" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" >   
             </td>
         </tr>
         <tr>

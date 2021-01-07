@@ -14,7 +14,7 @@
 
 <nav>
 <a href="mainmenu.php?id=<?php echo $id?>">HOME</a>
-<a href="profile.php?id=<?php echo $id?>">VIEW PROFILE</a>
+<a href="https://golferb031920011.herokuapp.com/profile.php?id=<?php echo $id?>">VIEW PROFILE</a>
 <a href="golfer.php?id=<?php echo $id?>">GOLFER</a>
 <a href="index.php">LOGOUT</a>
 </nav>

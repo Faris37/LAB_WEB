@@ -1,5 +1,8 @@
 <?php include ("config.php");
-    $id = $_GET['id'];
+    
+    session_start();
+
+    $id = $_SESSION["id"] ;
 
     $sql = "SELECT name , email , phone , gender FROM member where id = '".$id."'";
     $result = mysqli_query($conn, $sql);

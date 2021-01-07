@@ -17,10 +17,12 @@ else
     $id = "";
 
     if($id != "")
-    {
+    {   
+        session_start();
+        $_SESSION["id"] = $id;
         echo "<script>
 	    alert('Logged In');
-	    window.location.href='mainmenu.php?id=$id';  
+	    window.location.href='mainmenu.php';  
         </script>";
 
    }

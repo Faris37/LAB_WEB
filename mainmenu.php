@@ -1,5 +1,6 @@
 <?php include ("config.php");
-    $id = $_GET['id'];
+    session_start();
+    $id = $_SESSION["id"] ;
 ?>
 
 <html><head>
@@ -13,9 +14,9 @@
 </header>
 
 <nav>
-<a href="mainmenu.php?id=<?php echo $id?>">HOME</a>
-<a href="https://golferb031920011.herokuapp.com/profile.php?id=<?php echo $id?>">VIEW PROFILE</a>
-<a href="golfer.php?id=<?php echo $id?>">GOLFER</a>
+<a href="mainmenu.php">HOME</a>
+<a href="profile.php">VIEW PROFILE</a>
+<a href="golfer.php">GOLFER</a>
 <a href="index.php">LOGOUT</a>
 </nav>
 

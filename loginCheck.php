@@ -9,7 +9,7 @@ $result = mysqli_query($conn, $query);
 
 
 
-if($result != "")
+if($result)
    { 
     if ($result->num_rows > 0) {
         while($row = $result->fetch_assoc()) {  

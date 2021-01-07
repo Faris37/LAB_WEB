@@ -38,7 +38,7 @@
 
 <article>
 <form action="ProfileCheck.php" method="POST">
-    <table style="text-align: left; border: 1px solid black; border-spacing: 5px;">
+    <table >
         <tr>
             <th>
                 Name

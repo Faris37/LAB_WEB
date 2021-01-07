@@ -30,9 +30,9 @@
                 <span class="help-block"></span>
             </div>
             <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Login">
+                <input type="submit" class="btn btn-primary" value="Submit">
             </div>
-            
+            New User? <a href="register.php">Register Now</a>
         </form>
     </div>    
 </body>

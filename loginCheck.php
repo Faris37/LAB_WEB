@@ -29,7 +29,7 @@ if($result != "")
 
     echo "<script>
 	alert('No Username or Password matched');
-	window.location.href='https://golferb031920011.herokuapp.com';  
+	window.location.href='index.php';  
 	</script>";
 
    }

@@ -8,10 +8,13 @@ $password = mysqli_real_escape_string($conn, $_REQUEST['password']);
 $sql = "SELECT * FROM sql12385564.member where username = '".$username."' and password = '".$password."'";
 if(mysqli_query($conn, $sql)){
     
-	echo "<script>
+    echo $username;
+    echo $password;
+    echo $sql;
+	/*echo "<script>
 	alert('Login Successfully');
 	window.location.href='http://localhost/CIMS/login.php';  
-	</script>";
+	</script>";*/
 	//header("location: welcome.php");
 } else{
 

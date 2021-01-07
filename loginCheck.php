@@ -7,11 +7,10 @@ $password = mysqli_real_escape_string($conn, $_REQUEST['password']);
 // Attempt insert query execution
 $sql = "SELECT * FROM sql12385564.member where username = '".$username."' and password = '".$password."'";
 $result = mysqli_query($conn, $sql);
-if($result == false){
+if($result != false){
     
-    echo $username;
-    echo $password;
-    echo $sql;
+    echo $result;
+    //ni ade member
 	/*echo "<script>
 	alert('Login Successfully');
 	window.location.href='http://localhost/CIMS/login.php';  

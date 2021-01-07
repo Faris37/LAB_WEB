@@ -16,8 +16,9 @@
 <nav>
 <a href="mainmenu.php">HOME</a>
 <a href="profile.php">VIEW PROFILE</a>
+<a href="updateProfile.php">UPDATE PROFILE</a>
 <a href="golfer.php">GOLFER</a>
-<a href="index.php">LOGOUT</a>
+<a href="logout.php">LOGOUT</a>
 </nav>
 
 

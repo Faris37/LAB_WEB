@@ -1,26 +1,27 @@
-<?php include ("config.php");
+<?php 
+include ("config.php");
 
 $username = $_POST['username'];
 $password = $_POST['password'];
 
 
-$query = "select id from sql12385564.member where username = '".$username."' and password = '".$password."'";
-$result = mysqli_query($conn, $query);
+$sql = "SELECT id FROM member where username = '".$username."' and password = '".$password."'";
+$result = mysqli_query($conn, $sql);
 
-
-
-if($result)
-   { 
-    if ($result->num_rows > 0) {
-        while($row = $result->fetch_assoc()) {  
-        $id = $row['id'];
-        }
+if ($result->num_rows > 0) {
+     while($row = $result->fetch_assoc()) {  
+         $id = $row['id'];
     }
+}
+else
+    $id = "";
 
-    echo "<script>
-	alert('Logged In');
-	window.location.href='mainmenu.php?id=$id';  
-    </script>";
+    if($id != "")
+    {
+        echo "<script>
+	    alert('Logged In');
+	    window.location.href='mainmenu.php?id=$id';  
+        </script>";
 
    }
    

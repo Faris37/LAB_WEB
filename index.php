@@ -18,7 +18,7 @@
     <div class="wrapper">
         <h2>Login Golfer</h2>
         <p>Please fill in your credentials to login.</p>
-        <form action="loginCheck.php" method="post">
+        <form action="loginCheck.php" method="POST">
             <div class="form-group">
                 <label>Username</label>
                 <input type="text" name="username" class="form-control" value="<?php echo ''; ?>">

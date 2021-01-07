@@ -1,0 +1,62 @@
+body 
+{
+  margin: 0;
+}
+
+header 
+{
+  background-color: gray;
+  padding: 10px;
+  text-align: center;
+}
+
+nav
+{
+  position: relative;
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.marquee
+{
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+}
+
+.imageSilat
+{
+  padding: 20px;
+  text-align: center; 
+}
+
+section {
+   padding: 14px 50px;
+}
+
+section h2 {
+   text-align: center;
+}
+
+article
+{
+	margin-left: 40%;
+    margin-right: 50%;
+    width: 15%;
+	padding: 20px;
+	background-color: white;
+}

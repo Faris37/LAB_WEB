@@ -10,6 +10,7 @@ $result = mysqli_query($conn, $sql);
 if($result != false){
     
     echo $result;
+    echo $username;
     //ni ade member
 	/*echo "<script>
 	alert('Login Successfully');

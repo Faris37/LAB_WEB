@@ -10,6 +10,8 @@ $password = $_POST['password'];
 $sql = "INSERT INTO member(NAME,EMAIL,PHONE,GENDER,USERNAME,PASSWORD) values('$name','$email','$phone','$gender','$username','$password')";
 $result = mysqli_query($conn, $sql);
 
+echo mysqli_error($conn);
+
 if($result)
 {
     echo "<script>

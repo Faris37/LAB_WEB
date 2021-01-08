@@ -21,7 +21,7 @@
 </nav>
 
 <article>
-<form action="GolferCheck.php" method="POST">
+<form action="golferCheck.php" method="POST">
     <table >
         <tr>
             <th>

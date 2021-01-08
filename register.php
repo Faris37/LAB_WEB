@@ -18,7 +18,7 @@
     <div class="wrapper">
         <h2>Register Member</h2>
         <p>Please fill in your credentials to login.</p>
-        <form action="RegisterCheck.php" method="POST">
+        <form action="registerCheck.php" method="POST">
             <div class="form-group">
                 <label>Name</label>
                 <input type="text" name="name" class="form-control" value="">
